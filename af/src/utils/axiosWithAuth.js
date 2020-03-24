@@ -1,9 +1,12 @@
 import axios from 'axios';
 
+
+
+// Setting up Authentication with a base URL
 export default function axiosWithAuth() {
     
     return axios.create ({
-        baseURL: "http://localhost:5000/api",
+        baseURL: "http://localhost:5000",
         headers: {Authorization: localStorage.getItem("token")}
     })
 }

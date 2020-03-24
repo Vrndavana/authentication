@@ -1,3 +1,32 @@
+# Auth Friends 
+
+# BEFORE YOU EVEN RUN NPM CHANGE USERNAME AND PASSWORD TO USER, PASS!!!
+# Build routes in App.js
+# Create Login.js
+# Create Utils folder and AxiosWithAuth file
+-  vvv Login.js vvv
+- import AxiosWithAuth into Loggin and make login = e => axios // step 6 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
