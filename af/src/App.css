@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   background-color: #282c34;
-  height: 100vh;
+  color: rgb(143, 143, 143);
+  height: 1000vh;
 }
 
 .App-logo {
@@ -37,4 +38,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.enemies{
+  border: 3px solid white;
+  border-radius: 30%;
+  margin: 1% auto;
+  width: 25% ;
+  background-color: rgba(0, 0, 0, 0.623);
 }

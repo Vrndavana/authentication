@@ -21,7 +21,12 @@ export default function FriendList() {
         <FriendForm setFriends={setFriends}/> 
         < button onClick={fetchFriends}> Press!</button>
         {friends.map(friendObj => {
-            return <div key={friendObj.id}> {friendObj.name} </div>
+            return (<div className="enemies" key={friendObj.id}> {""} 
+                    <p>Name:{friendObj.name}</p>  {""} 
+                    <p>Age:{friendObj.age}</p>
+                    <p>Email:{friendObj.email}</p> 
+                    <button>EDIT</button>{""} 
+                    </div>)
         })}
         </div>
     );
