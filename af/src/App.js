@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-import Login from './components/Login'
+import Login from './components/Login';
+import PrivateRoute from "./components/PrivateRoute";
+import FriendList from "./components/FriendList"
 
 function App() {
   return (
@@ -9,11 +11,9 @@ function App() {
     
       <Router>
         <Route path='/login' component={Login}/>
-        {/* <Route path='/' component={FriendsList}/>
-        <Route path='/form' component={FriendForm}/> */}
-
-
-
+        <PrivateRoute exact path='/' component={FriendList}/>
+        {/* <Route path='/form' component={FriendForm}/> */}
+ 
       </Router>
 
 
