@@ -17,6 +17,7 @@ export default function FriendList() {
 
     return (
         <div>
+            <h1>Add Your Own Friend!</h1>
         {/* setFriends={setFriends} === props being connected to FriendForm from FriendList */}
         <FriendForm setFriends={setFriends}/> 
        

@@ -19,9 +19,9 @@ export default function FriendFrom (props) {
 
     return <div>
         <form onSubmit={addFriend}>
-            <input type='text'   name='name' value={form.name}  onChange={handeChanges}/>
-            <input type='number' name='age'  value={form.age}   onChange={handeChanges}/>
-            <input type='email'  name='email'value={form.email} onChange={handeChanges}/>
+            <input type='text'   name='name' value={form.name}  onChange={handeChanges} placeholder="Friend"/>
+            <input type='number' name='age'  value={form.age}   onChange={handeChanges} placeholder="Age"/>
+            <input type='email'  name='email'value={form.email} onChange={handeChanges} placeholder="Email"/>
             <button type='submit'> Add Friend </button>
 
         </form>

@@ -18,7 +18,8 @@ const Login = props => {     // 1
     // LOGIN RETURN - Form Display  
     return (  // 2 - Username, Password, Submit Button
     <form onSubmit={login}>  
- 
+        <h3>Welcome to Friends</h3>
+        <h1>Log In!</h1>
         <input type="text" name="username" onChange={handleChanges} value={form.username}/>     
         <input type="password" name="password"onChange={handleChanges} value={form.password}/>
         <button type="submit"> Login </button>
