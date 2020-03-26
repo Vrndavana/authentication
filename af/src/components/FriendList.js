@@ -19,7 +19,7 @@ export default function FriendList() {
         <div>
         {/* setFriends={setFriends} === props being connected to FriendForm from FriendList */}
         <FriendForm setFriends={setFriends}/> 
-        < button onClick={fetchFriends}> Press!</button>
+       
         {friends.map(friendObj => {
             return (<div className="enemies" key={friendObj.id}> {""} 
                     <p>Name:{friendObj.name}</p>  {""} 
